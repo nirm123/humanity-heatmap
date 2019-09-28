@@ -1,0 +1,209 @@
+body {
+    color: #373a3c;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.med-text {
+    font-size: 1.25rem;
+}
+
+.large-text {
+    font-size: 1.5rem;
+}
+
+.very-large-text {
+    font-size: 2.5rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 71.25rem;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    margin-bottom: 2rem;
+    margin-top: 2%;
+    padding: 2rem 1rem;
+}
+
+.header {
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: .3rem;
+    color: #fff;
+    padding: .8rem 1rem;
+    text-decoration: none;
+}
+
+.information {
+    margin-left: .5rem;
+}
+
+.legends-container {
+    margin-bottom: -4%;
+    margin-left: -.9375rem;
+    margin-right: -.9375rem;
+    text-align: center;
+}
+
+.legends-container::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.legend-container {
+    margin-bottom: 10.3125rem;
+    margin-top: 4%;
+    max-width: 20rem;
+    min-height: 0.0625rem;
+}
+
+.legend-one-container {
+    float: left;
+}
+
+.legend {
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+}
+
+.legend-subtitle-top-container {
+    font-size: 0.8rem;
+    margin-bottom: 10%;
+    max-height: 1.875rem;
+    padding: 4%;
+}
+
+.legend-subtitle-one {
+    float: left;
+    font-weight: 700;
+}
+
+.legend-subtitle-two {
+    float: right;
+    font-weight: 700;
+}
+
+.legend-two-container {
+    float: right;
+}
+
+.chart-items {
+    margin-bottom: 10.3125rem;
+    margin-top: -14%;
+    max-width: 96%;
+    min-height: 0.0625rem;
+    text-align: left;
+}
+
+.settings {
+    background-color: #f5f5f5;
+    border: 0.0625rem solid #e3e3e3;
+    border-radius: 0.5rem;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    min-height: 6.25rem;
+    padding: .9375rem;
+    text-align: left;    
+}
+
+.selector-container {
+    width: 40%;
+}
+
+.chart-container {
+    min-height: 25rem;
+    text-align: center;  
+}
+
+.chart {
+    height: 100%;
+    width: 100%;
+}
+
+.circle {
+    opacity: 0.7;
+}
+
+.circle:hover + .text {
+    visibility: visible;
+}
+
+.grid {
+    color: #d0dae8;
+}
+
+.tooltip {
+    background-color: white;
+    border: 0.0625rem solid black;
+    border-radius: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+}
+
+.tooltip-title {
+    font-size: 1.5rem;
+    padding-top: 0.3125rem;
+}
+
+.tooltip-content {
+    margin-bottom: 0.3125rem;
+    margin-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    padding-top: 0.3125rem;
+}
+
+.tooltip-row {
+    border-top: 0.0625rem dotted black;
+    padding-bottom: 5.75rem;
+    padding-top: 0.5rem;
+    width: 100%;
+}
+
+.tooltip-data-name {
+    font-size: 0.87rem;
+}
+
+.tooltip-data-value {
+    font-size: 1.5rem;
+}
+
+.tooltip-left {
+    float: left;
+    width: 50%;
+}
+
+.tooltip-right {
+    float: right;
+    width: 50%;
+}
+
+.tooltip-full {
+    float: left;
+    width: 100%;
+}
+
+.map-canvas {
+    height: 100%;
+    width: 100%;
+}
